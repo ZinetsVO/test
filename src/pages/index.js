@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 
 import FruitList from '@/components/fruitlist'
+import Acordion from '@/components/Acordion/index'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function Home() {
       </Head>
       <main>
         <FruitList />
+        <Acordion />
       </main>
     </>
   )
