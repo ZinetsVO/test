@@ -118,7 +118,7 @@ form, label, input {
 
 /* fruits styles */
 
-ul{
+/* ul{
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -157,5 +157,5 @@ li {
   margin-block: 60px;
   width: fit-content;
   margin-inline: auto;
-}
+} */
 

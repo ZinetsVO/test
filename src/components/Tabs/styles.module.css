@@ -1,0 +1,26 @@
+.acordion {
+
+    padding: 10px 30px;
+    
+}
+
+.question {
+    cursor: pointer;
+    background-color: #219a9e;
+    height: fit-content;
+    padding: 20px 0 20px 20px ;
+    
+}
+
+
+
+.answer {
+    background-color: #202020;
+    display: none; 
+}
+
+
+.active {
+    display: block; 
+    padding: 20px 0 20px 20px ;
+}

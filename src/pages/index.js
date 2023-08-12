@@ -5,6 +5,7 @@ import FruitList from '@/components/fruitlist'
 import Acordion from '@/components/Acordion/index'
 import Counter from '@/components/Counter/index'
 import Form from '@/components/Form'
+import Todo from '@/components/Todo'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,12 +19,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <FruitList />
-        <Acordion />
+        
+        <Todo /> 
 
-        <Counter />
-
-        <Form/>
       </main>
     </>
   )
