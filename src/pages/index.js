@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 
 import FruitList from '@/components/fruitlist'
 import Acordion from '@/components/Acordion/index'
+import Counter from '@/components/Counter/index'
+import Form from '@/components/Form'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +20,10 @@ export default function Home() {
       <main>
         <FruitList />
         <Acordion />
+
+        <Counter />
+
+        <Form/>
       </main>
     </>
   )
